@@ -1,0 +1,10 @@
+
+version: 2
+jobs:
+  build:
+    working_directory: ~/repo
+    machine:
+      image: circleci/classic:edge
+    steps:
+      - checkout
+      - run: docker build -t steinf/rust-play .
