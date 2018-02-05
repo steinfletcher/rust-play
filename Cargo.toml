@@ -1,0 +1,8 @@
+[package]
+name = "play"
+version = "0.1.0"
+authors = ["stein <steinfletcher+github@gmail.com>"]
+
+[dependencies]
+iron = "*"
+rustc-serialize = "*"
